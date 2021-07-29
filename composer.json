@@ -1,0 +1,11 @@
+{
+    "name": "cjw/refactor-php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "cjwind",
+            "email": "cwentsai@gmail.com"
+        }
+    ],
+    "require": {}
+}
