@@ -4,7 +4,7 @@ namespace Refactor\PullUpMethod\Before;
 
 class Employee extends Party
 {
-    private int $monthlyCost;
+    private int $monthCost;
 
     public function annualCost(): int
     {
@@ -13,6 +13,6 @@ class Employee extends Party
 
     private function monthlyCost(): int
     {
-        return $this->monthlyCost;
+        return $this->monthCost;
     }
 }
