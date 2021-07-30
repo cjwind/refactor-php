@@ -11,7 +11,7 @@ class Employee extends Party
         return $this->monthlyCost() * 12;
     }
 
-    public function monthlyCost()
+    public function monthlyCost(): int
     {
         return $this->monthlyCost;
     }
