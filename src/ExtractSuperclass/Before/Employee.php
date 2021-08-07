@@ -1,5 +1,7 @@
 <?php
 
+namespace Refactor\ExtractSuperclass\Before;
+
 class Employee
 {
     private $id;
