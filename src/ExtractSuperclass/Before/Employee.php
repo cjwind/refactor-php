@@ -15,7 +15,7 @@ class Employee
         $this->monthlyCost = $monthlyCost;
     }
 
-    public function getMonthlyCost()
+    public function monthlyCost()
     {
         return $this->monthlyCost;
     }
